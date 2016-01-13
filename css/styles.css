@@ -1,7 +1,12 @@
-#story {
+#adult, #minor {
   display: none;
 }
 
-h1 {
-  text-align: center;
+a {
+  font-weight:bold;
+}
+
+.container .header {
+    text-align: center;
+    font-size: 20px;
 }
