@@ -1,9 +1,13 @@
 $(document).ready(function(){
-  var age = parseInt(prompt("How old are you?"));
 
-  if (age >= 18) {
-    $('#adult').show();
-  } else {
-    $('#minor').show();
-  }
+  var animal = prompt("Would you like to learn about turtles, snakes, or insects?");
+
+  if (animal === "turtles") {
+    $('#turtles').show();
+} if (animal === "insects") {
+  $('#insects').show();
+} if (animal === "snakes") {
+  $('#snakes').show();
+}
+
 });
